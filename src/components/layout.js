@@ -17,11 +17,11 @@ export default ({ children }) => (
     `}
     render={data => (
       <div
-        css={css`
-      margin: 0 auto;
-      max-width: 700px
-      padding: ${rhythm(2)};
-      padding-top: ${rhythm(1.5)}
+      css={css`
+        margin: 0 auto;
+        max-width: 700px;
+        padding: ${rhythm(2)};
+        padding-top: ${rhythm(1.5)};
     `}
       >
         <Link to={`/`}>
